@@ -1,0 +1,354 @@
+.formulario {
+  margin: auto;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+.textareas {
+  margin: auto;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+.botonenviar {
+  cursor: pointer;
+  background: rgb(240, 90, 31);
+  width: 250px;
+  margin: auto;
+}
+
+@media (max-width: 800px) {
+  .botonenviar {
+    cursor: pointer;
+    background: rgb(31, 240, 48);
+  }
+  .formulario {
+    margin: auto;
+  }
+  .textareas {
+    margin: auto;
+  }
+}
+
+.btn__container {
+    margin-top: 20px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn__container a {
+  margin-right: 10px;
+}
+.btn {
+  min-width: 110px;
+  background-color: #fff;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  color: #c71e7e;
+  display: flex;
+  transition: all 0.2s ease-in-out;
+}
+.btn i {
+  color: #df3796;
+  font-size: 20px;
+  padding-right: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.btn span {
+  font-family: Roboto, sans-serif;
+  align-self: center;
+  -webkit-transform: translateX(0px);
+  transform: translateX(0px);
+  transition: all 0.1s ease-in-out;
+  opacity: 1;
+}
+.btn:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  background: linear-gradient(to right, #ff3019 0, #c90477 100%);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+.btn:hover i {
+  -webkit-transform: translateX(45px);
+  transform: translateX(45px);
+  padding-right: 0;
+  color: #fff;
+}
+.btn:hover span {
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+  opacity: 0;
+}
+.btn:active {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.btn-f {
+  min-width: 110px;
+  background-color: #fff;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  color: #286ed6;
+  display: flex;
+  transition: all 0.2s ease-in-out;
+}
+.btn-f i {
+  color: #286ed6;
+  font-size: 20px;
+  padding-right: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.btn-f span {
+  font-family: Roboto, sans-serif;
+  align-self: center;
+  -webkit-transform: translateX(0px);
+  transform: translateX(0px);
+  transition: all 0.1s ease-in-out;
+  opacity: 1;
+}
+.btn-f:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  background-color: #286ed6;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+.btn-f:hover i {
+  -webkit-transform: translateX(45px);
+  transform: translateX(45px);
+  padding-right: 0;
+  color: #fff;
+}
+.btn-f:hover span {
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+  opacity: 0;
+}
+.btn-f:active {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.btn-y {
+  min-width: 110px;
+  background-color: #fff;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  color: red;
+  display: flex;
+  transition: all 0.2s ease-in-out;
+}
+.btn-y i {
+  color: red;
+  font-size: 20px;
+  padding-right: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.btn-y span {
+  font-family: Roboto, sans-serif;
+  align-self: center;
+  -webkit-transform: translateX(0px);
+  transform: translateX(0px);
+  transition: all 0.1s ease-in-out;
+  opacity: 1;
+}
+.btn-y:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  background-color: red;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+.btn-y:hover i {
+  -webkit-transform: translateX(45px);
+  transform: translateX(45px);
+  padding-right: 0;
+  color: #fff;
+}
+.btn-y:hover span {
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+  opacity: 0;
+}
+.btn-y:active {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+body {
+    margin: 0;
+  }
+  .container1 {
+      border: 1rem solid red;
+    height: 50px;    
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  .content {
+    font-family: Arial;
+    text-align: center;
+    font-size: 2em;
+    color: rgba(255,255,255, .8);
+  }
+
+  .waves {
+    position: absolute;
+/*      left: 0;
+    right: 0;
+    height: 200px;
+    bottom: 0;*/
+    bottom: -135px;
+    height: 527px;
+    width: 100%;
+    overflow: hidden;
+  }
+  .wave {
+    position: absolute;
+    left: -180px;
+    bottom: 0;
+    /*width: 200px;*/
+    /*height: 200px;*/
+    /*width: 100%;*/
+    /*border-radius: 50%;*/
+    /*background:rgba(0,0,0, .3);*/
+    width: 2402px;
+    height: 427px;
+    background: url(https://static.platzi.com/media/files/waves_c8551f5d-ecf6-4a81-ae1d-f3a0ad55ba10.png) center bottom no-repeat;
+    animation: 5s wave ease-in-out infinite alternate;
+  }
+  .wave.a {
+    background-position: 0 -854px;
+  }
+  .wave.b {
+    background-position: 0 -427px;
+    animation-delay: .6s;
+  }
+  .wave.c {
+    background-position: 0 0;
+    animation-delay: 1.2s;
+  }
+  /*.container {
+    position: absolute;
+  }*/
+  @keyframes wave {
+    0% {
+      transform: translate(0 , 0);
+    }
+    50% {
+      transform: translate(-80px, 30px);
+    }
+    100% {
+      transform: translate(160px, -60px);
+    }
+  }
+
+  ::before,
+::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.conteiner1{
+    width: 200px;
+    height: 200px;
+    margin: 100px auto 0;
+    perspective: 1000px;
+    position: relative;
+    
+}
+
+.cube{
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    animation: spin 5s infinite linear;
+}
+.face{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: crimson;
+    border: 2px solid #fff;
+   
+}
+.top{
+    transform: rotateX(90deg) translateZ(100px);
+    background-image: url('https://parlamentoandino.org/images/actualidad/noticias/2021/05/P-Da-Mundial-de-las-Telecomunicaciones-y-la-Sociedad-de-la-Informacin.jpg') ;
+    background-size: cover;
+    
+    
+
+    
+   
+   
+}
+.bottom{
+    transform: rotateX(-90deg) translateZ(100px);
+    background-image: url('https://portal.ejes.com/img/noticias/2021/03/celulares_telefonia_internet.jpg') ;
+    background-size: cover;
+
+ 
+  
+   
+}
+
+.right{
+    transform: rotateY(90deg) translateZ(100px);
+
+    background-image: url('https://www.formados.ec/wp-content/uploads/2019/04/software.jpg') ;
+    background-size: cover;
+
+   
+  
+   
+}
+
+.left{
+    transform: rotateY(-90deg) translateZ(100px);
+  
+    background-image: url('https://www.redeszone.net/app/uploads-redeszone.net/2021/05/vulnerabilidad-critica-python.jpg?x=480&y=375&quality=40') ;
+    background-size: cover;
+
+    
+
+   
+}
+.front{
+    transform: translateZ(100px);
+    
+    background-image: url('https://unicit.edu.ni/wp-content/uploads/2017/06/16.jpg') ;
+    background-size: cover;
+   
+   
+   
+   
+ 
+}
+.back{
+    transform: translateZ(-100px);
+  
+    background-image: url('https://www.galileo.edu/trends-innovation/wp-content/uploads/2019/10/ET1.jpg') ;
+    background-size: cover;
+
+   
+   
+}
+
+@keyframes spin{
+    from{
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+    to{
+        transform: rotateX(360deg) rotateY(360deg);
+    }
+}
+
+.titulo{
+  color: rgb(243, 21, 21);
+}
+
+
